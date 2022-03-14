@@ -124,6 +124,13 @@ h1 {
   font-weight: 600;
 }
 
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 35px;
+    line-height: 43px;
+  }
+}
+
 h2 {
   font-size: 35px;
   line-height: 53px;
@@ -353,7 +360,7 @@ header {
 @media screen and (max-width: 1200px) {
   .header-logo,
   header .socialmedia-item {
-    display: none;
+    display: none !important;
   }
 
   header {
@@ -444,11 +451,6 @@ footer {
 }
 
 @media screen and (max-width: 1000px) {
-  h1 {
-    font-size: 2.5rem;
-    line-height: 2.8rem;
-  }
-
   .footer-bottom > :first-child {
     display: none;
   }

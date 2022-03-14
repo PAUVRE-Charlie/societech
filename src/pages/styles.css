@@ -76,6 +76,7 @@
 @media screen and (max-width: 1000px) {
   .hero {
     margin-bottom: 70px;
+    margin-top: 20px;
   }
   .planet {
     top: 95%;
